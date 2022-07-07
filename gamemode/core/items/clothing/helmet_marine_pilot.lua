@@ -1,7 +1,7 @@
 ITEM = class.Create("base_clothing")
 
-ITEM.Name 			= "CH252 Basic Helmet"
-ITEM.Description 	= "A UNSC standard issue combat helmet. Comes packaged with a balaclava and a set of ballistic goggles."
+ITEM.Name 			= "Pilot Helmet"
+ITEM.Description 	= "A UNSC standard issue pilot helmet."
 
 ITEM.OutlineColor 	= Color(127, 255, 159)
 
