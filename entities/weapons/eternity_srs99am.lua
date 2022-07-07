@@ -58,3 +58,26 @@ SWEP.Animations = {
 	reload_empty = "reload_empty",
 	draw = "draw"
 }
+
+function SWEP:DrawHUDBackground()
+	if self.Scoped then
+		local w = ScrW()
+		local h = ScrH()
+
+		local ratio = 6 / 3
+		local width = ratio * h
+
+		local x = (w * 0.5) - (width * 0.5)
+
+		surface.SetDrawColor(10, 10, 10, 220)
+
+		surface.DrawRect(0, 0, x, h)
+		surface.DrawRect(x + width, 0, x, h)
+
+		surface.DrawLine(w * 0.5, 0, w * 0.5, h)
+		surface.DrawLine(0, h * 0.5, w, h * 0.5)
+
+		surface.SetTexture(surface.GetTextureID("hud/scopes/h3_sniper_scope"))
+		surface.DrawTexturedRect((w * 0.5) - (width * 0.5), 0, width, h)
+	end
+end

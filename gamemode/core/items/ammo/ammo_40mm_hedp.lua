@@ -7,7 +7,7 @@ ITEM.Model 				= Model("models/vuthakral/halo/weapons/m139_grenade.mdl")
 
 ITEM.License 			= LICENSE_QM
 
-ITEM.MaxStack 			= 6
+ITEM.MaxStack 			= 12
 
 ITEM.AmmoGroup 			= "40mm"
 ITEM.Ammo 				= "40mm_hedp"

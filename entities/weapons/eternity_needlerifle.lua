@@ -28,7 +28,7 @@ SWEP.DelayRamp 			= 0.8
 SWEP.MinDelay 			= .25
 SWEP.MaxDelay 			= .25
 
-SWEP.HipCone 			= 0.07
+SWEP.HipCone 			= 0.05
 SWEP.AimCone 			= 0.01
 
 SWEP.Recoil 			= 0.2
@@ -44,7 +44,7 @@ SWEP.Scope 				= {
 
 SWEP.DefaultOffset = {
 	ang = Angle(0, 0, 0),
-	pos = Vector(2, 2, -1)
+	pos = Vector(2, 2, -3)
 }
 
 SWEP.LoweredOffset = {
@@ -54,11 +54,11 @@ SWEP.LoweredOffset = {
 
 SWEP.AimOffset = {
 	ang = Angle(0, 0, 0),
-	pos = Vector(0, 2, 1)
+	pos = Vector(-4, 0, -3)
 }
 
 SWEP.Animations = {
-	fire = "fire",
+	fire = {"fire0", "fire1", "fire2"},
 	draw = "draw",
 	reload = "reload"
 }

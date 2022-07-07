@@ -68,7 +68,7 @@ function SWEP:DrawHUDBackground()
 
 		local x = (w * 0.5) - (width * 0.5)
 
-		surface.SetDrawColor(3, 3, 3, 250)
+		surface.SetDrawColor(3, 3, 3, 200)
 
 		surface.DrawRect(0, 0, x, h)
 		surface.DrawRect(x + width, 0, x, h)

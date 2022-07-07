@@ -2,14 +2,14 @@ AddCSLuaFile()
 
 SWEP.Base 				= "eternity_firearm_base"
 
-SWEP.PrintName 			= "M6G PDWS"
+SWEP.PrintName 			= "SRS99D-S2 AM"
 SWEP.Author 			= "TankNut"
 
-SWEP.ViewModel 			= Model("models/snowysnowtime/vuthakral/c_hum_m6g.mdl")
-SWEP.WorldModel 		= Model("models/snowysnowtime/vuthakral/w_m6g.mdl")
+SWEP.ViewModel 			= Model("models/vuthakral/halo/weapons/c_hum_srs99d.mdl")
+SWEP.WorldModel 		= Model("models/vuthakral/halo/weapons/w_srs99d.mdl")
 
-SWEP.HoldType 			= "revolver"
-SWEP.HoldTypeLowered 	= "normal"
+SWEP.HoldType 			= "ar2"
+SWEP.HoldTypeLowered 	= "passive"
 
 SWEP.Firemodes 			= {
 	{Mode = "firemode_semi"}
@@ -18,38 +18,38 @@ SWEP.Firemodes 			= {
 SWEP.Animated 			= true
 SWEP.AnimatedADS 		= true
 
-SWEP.AmmoGroup 			= "127x40mm"
+SWEP.AmmoGroup 			= "145x114mm"
 
-SWEP.ClipSize 			= 8
-SWEP.Delay 				= 0.25
+SWEP.ClipSize 			= 4
+SWEP.Delay 				= 1
 
-SWEP.HipCone 			= 0.05
-SWEP.AimCone 			= 0.01
+SWEP.HipCone 			= 0.5
+SWEP.AimCone 			= 0
 
-SWEP.Recoil 			= 1
+SWEP.Recoil 			= 1.2
 
-SWEP.FireSound 			= Sound("weapon_m6g")
+SWEP.FireSound 			= Sound("snow/weapons/sniper_rifle/sniper_fire_h3/sniper_fire_h3_1.wav")
 
 SWEP.RecoilMult 		= 0
 
 SWEP.Scope 				= {
 	Enabled = true,
-	Zoom = 2
+	Zoom = {5, 8, 20}
 }
 
 SWEP.DefaultOffset = {
 	ang = Angle(0, 0, 0),
-	pos = Vector(1, -3, -1)
+	pos = Vector(1, -1, -1)
 }
 
 SWEP.LoweredOffset = {
-	ang = Angle(-15, 0, 0),
-	pos = Vector(2, 0, 0)
+	ang = Angle(-10, 35, 0),
+	pos = Vector(2, 0, -2)
 }
 
 SWEP.AimOffset = {
 	ang = Angle(0, 0, 0),
-	pos = Vector(-4, -5, -0)
+	pos = Vector(-4.68, -5, -1.155)
 }
 
 SWEP.Animations = {
@@ -63,12 +63,12 @@ function SWEP:DrawHUDBackground()
 		local w = ScrW()
 		local h = ScrH()
 
-		local ratio = 4 / 3
+		local ratio = 6 / 3
 		local width = ratio * h
 
 		local x = (w * 0.5) - (width * 0.5)
 
-		surface.SetDrawColor(3, 3, 3, 200)
+		surface.SetDrawColor(10, 10, 10, 220)
 
 		surface.DrawRect(0, 0, x, h)
 		surface.DrawRect(x + width, 0, x, h)
@@ -76,7 +76,7 @@ function SWEP:DrawHUDBackground()
 		surface.DrawLine(w * 0.5, 0, w * 0.5, h)
 		surface.DrawLine(0, h * 0.5, w, h * 0.5)
 
-		surface.SetTexture(surface.GetTextureID("hud/scopes/m7s_scope"))
+		surface.SetTexture(surface.GetTextureID("hud/scopes/h3_sniper_scope"))
 		surface.DrawTexturedRect((w * 0.5) - (width * 0.5), 0, width, h)
 	end
 end

@@ -26,7 +26,7 @@ SWEP.Delay 				= 0.1
 SWEP.HipCone 			= 0.5
 SWEP.AimCone 			= 0.009
 
-SWEP.Recoil 			= 1.2
+SWEP.Recoil 			= 1
 
 SWEP.FireSound 			= Sound("vuthakral/halo/weapons/br55hb/fire6.wav")
 
