@@ -21,7 +21,7 @@ SWEP.AnimatedADS 		= true
 SWEP.AmmoGroup 			= "762x51mm"
 
 SWEP.ClipSize 			= 32
-SWEP.Delay 				= 0.1
+SWEP.Delay 				= 0.08
 
 SWEP.HipCone 			= 0.4
 SWEP.AimCone 			= 0.03
