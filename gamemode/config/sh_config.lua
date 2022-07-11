@@ -127,7 +127,7 @@ GM.Config.ChatColors = {
 	Angry = Color(232, 20, 20)
 }
 
-GM.Config.CollectionID 	= 2455349631
+GM.Config.CollectionID 	= 1422930161
 GM.Config.Website 		= "https://www.taconbanana.com/"
 
 GM.Config.WorkshopIDs 	= {
@@ -487,8 +487,8 @@ GM.Config.PermissionWhitelist = {
 		"lunasflightschool_falconv1", -- LFS falcon
     	"lunasflightschool_spacebanshee", -- Space Banshee
 		"lunasflightschool_phantomv1", -- Phantom
-		"lunasflightschool_falconv2" -- LFS medical falcon
-		"halo_jetpack" -- Jet Pack
-    	"lfs_vehicle_maintenance" -- Jet Pack
+		"lunasflightschool_falconv2", -- LFS medical falcon
+		"halo_jetpack", -- Jet Pack
+    	"lfs_vehicle_maintenance", -- Jet Pack
 	}
 }

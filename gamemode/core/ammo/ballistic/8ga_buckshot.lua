@@ -2,7 +2,7 @@ AMMO = class.Create("ammo_ballistic")
 
 AMMO.Name 		= "8 Gauge M296 Magnum"
 
-AMMO.Damage 	= 7
+AMMO.Damage 	= 8
 
 AMMO.Amount 	= 15
 AMMO.Spread 	= 0.04
