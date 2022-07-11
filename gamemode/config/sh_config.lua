@@ -477,7 +477,6 @@ GM.Config.PermissionWhitelist = {
         "simfphys_h3mongoosesnow", -- Mongoose 2
     	"simfphys_h3scorpionsnow", -- Scorpion 
         "sim_fphys_v8elite", -- Elite Jeep
-    	"halo_jetpack" -- Jet Pack
 	},
 	[PERMISSION_VEHICLES_AIR] = {
 		"lunasflightschool_banshee", -- Banshee
@@ -489,5 +488,7 @@ GM.Config.PermissionWhitelist = {
     	"lunasflightschool_spacebanshee", -- Space Banshee
 		"lunasflightschool_phantomv1", -- Phantom
 		"lunasflightschool_falconv2" -- LFS medical falcon
+		"halo_jetpack" -- Jet Pack
+    	"lfs_vehicle_maintenance" -- Jet Pack
 	}
 }

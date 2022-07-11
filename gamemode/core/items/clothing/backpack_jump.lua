@@ -9,7 +9,7 @@ ITEM.Width 			= 3
 ITEM.Height 		= 4
 
 ITEM.EquipmentSlots = {EQUIPMENT_BACK}
-ITEM.ModelGroups 	= {"Marine", "ODST", "Insurrection"}
+ITEM.ModelGroups 	= {"Marine", "ODST", "Off-Duty"}
 
 if SERVER then
 	function ITEM:GetModelData(ply)

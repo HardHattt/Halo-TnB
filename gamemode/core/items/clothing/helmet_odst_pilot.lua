@@ -10,7 +10,7 @@ ITEM.OutlineColor 	= Color(109, 109, 109)
 
 ITEM.EquipmentSlots = {EQUIPMENT_HEAD}
 
-ITEM.License 		= false
+ITEM.License 		= LICENSE_QM
 
 ITEM.ModelGroups 	= {"ODST"}
 
@@ -46,6 +46,12 @@ if SERVER then
 				}
 			}
 		}
+    
+        		if self.HelmetGroup then
+			tab._base.Materials = {
+				["models/valk/halo3odst/unsc/characters/odst/emblem"] = "null"
+			}
+		end
 
 		return tab
 	end

@@ -1,17 +1,18 @@
 ITEM = class.Create("base_clothing")
 
-ITEM.Name 			= "Firefall ODST Helmet"
-ITEM.Description 	= "Manufactured by Cascade Stronghold Technologies, Firefall is a radical offshoot of other ODST armor development projects."
+ITEM.Name 			= "ODST Helmet"
+ITEM.Description 	= "A standard ODST helmet meant to fulfill a variety of combat roles."
 
-ITEM.Model 			= Model("models/ishi/halo_rebirth/player/offduty/male/props/helmet_odst_firefall.mdl")
+ITEM.Model 			= Model("models/ishi/halo_rebirth/player/offduty/male/props/helmet_odst_h3.mdl")
 
 ITEM.Color 				= Color(145, 145, 145)
 ITEM.OutlineColor 		= Color(127, 0, 255)
 
 ITEM.EquipmentSlots = {EQUIPMENT_HEAD}
-ITEM.ModelGroups 	= {"Off-Duty"}
 
 ITEM.License 		= LICENSE_QM
+
+ITEM.ModelGroups 	= {"Off-Duty"}
 
 ITEM.Filtered 		= true
 
@@ -35,15 +36,11 @@ function ITEM:GetContextOptions(ply)
 end
 
 if SERVER then
-	local indices = {
-		["Off-Duty"] = 6
-	}
-
 	function ITEM:GetModelData(ply)
 		return {
 			_base = {
 				Bodygroups = {
-					["Helmet"] = indices[self:GetModelGroup(ply)]
+					["Helmet"] = 1
 				}
 			}
 		}

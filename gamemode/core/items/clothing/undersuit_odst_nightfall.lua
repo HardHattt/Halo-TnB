@@ -11,6 +11,8 @@ ITEM.OutlineColor 		= Color(127, 0, 255)
 ITEM.Width 				= 2
 ITEM.Height 			= 2
 
+ITEM.License 		= LICENSE_QM
+
 ITEM.ModelPattern 		= "models/ishi/halo_rebirth/player/offduty/%s/offduty_%s.mdl"
 ITEM.ModelGroup 		= "Off-Duty"
 

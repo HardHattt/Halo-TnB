@@ -16,6 +16,8 @@ ITEM.ArmorLevel 	= ARMOR_HEAVY
 ITEM.EquipmentSlots = {EQUIPMENT_TORSO}
 ITEM.ModelGroups 	= {"Off-Duty"}
 
+ITEM.License 		= LICENSE_QM
+
 ITEM.Locked 			= false
 
 local fields = {

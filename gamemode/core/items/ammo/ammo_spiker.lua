@@ -5,8 +5,6 @@ ITEM.Description 		= "Superheated tungsten-alloy spikes used in the Type-52 Spik
 
 ITEM.Model 				= Model("models/Items/BoxMRounds.mdl")
 
-ITEM.License 			= LICENSE_QM
-
 ITEM.MaxStack 			= 400 -- 10 magazines
 
 ITEM.AmmoGroup 			= "spiker"

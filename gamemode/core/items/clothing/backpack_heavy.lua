@@ -20,7 +20,7 @@ ITEM.Inventories 		= {
 
 if SERVER then
 	local indices = {
-		["Off-Duty"] = 1,
+		["Off-Duty"] = 4,
 		["Marine"] = 3,
 		["ODST"] = 2,
 		["Insurrection"] = 2

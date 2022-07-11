@@ -14,6 +14,8 @@ ITEM.Height 			= 2
 ITEM.EquipmentSlots 	= {EQUIPMENT_TORSO}
 ITEM.ModelGroups 		= {"ODST"}
 
+ITEM.License 		= LICENSE_QM
+
 ITEM.Locked 			= false
 ITEM.Cuffs 				= false
 

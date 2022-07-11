@@ -21,6 +21,8 @@ CLASS.WeaponSlots 			= {EQUIPMENT_RADIO, EQUIPMENT_MISC}
 
 CLASS.ArmorLevel 			= ARMOR_MASSIVE
 
+Scale = 2
+
 CLASS.MoveSpeed 			= {
 	Walk = 67,
 	Run = 200,
@@ -34,6 +36,15 @@ if SERVER then
 	function CLASS:InitialSetup(ply)
 		ply:GiveLanguage(LANG_COVENANT)
 		ply:SetActiveLanguage(LANG_COVENANT)
+	end
+  
+  	function CLASS:GetModelData(ply)
+		return {
+			_base = {
+        		Model = "models/valk/haloreach/covenant/characters/hunter/hunter_player.mdl",
+				Scale = 1.1
+			}
+		}
 	end
 
 	function CLASS:SetupHands(ply, ent)

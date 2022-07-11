@@ -8,7 +8,7 @@ ITEM.Model 				= Model("models/ishi/halo_rebirth/props/human/data_module.mdl")
 ITEM.Color 			= Color(145, 145, 145)
 ITEM.OutlineColor 	= Color(109, 109, 109)
 
-ITEM.EquipmentSlots = {EQUIPMENT_ID}
+ITEM.EquipmentSlots = {EQUIPMENT_ID, EQUIPMENT_MISC}
 
 ITEM.Filtered 		= true
 
