@@ -14,7 +14,7 @@ if SERVER then
 					Armor = 3,
 					Mask  = 3,
 					Left_Bracer = 1,
-					Right_Bracer = 2
+					Right_Bracer = 1,
 				},
 				PlayerColor = Color(225, 139, 0):ToVector()
 			}

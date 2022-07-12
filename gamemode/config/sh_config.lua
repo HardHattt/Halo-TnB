@@ -201,8 +201,18 @@ GM.Config.WorkshopMapIDs = {
 	["rp_desertfury"] 					= 1423019928,
 	["rp_enforcer_cruiser"] 			= 2038392917,
 	["rp_ineu_valley_2_v1a"] 			= 232486601,
-	["rp_devils_nest_v3_daytime"] 		= 1452350775,
-	["rp_devils_nest_v3_nighttime"] 	= 1452350775,
+	["gm_islandbase"] 					= 2798863538,
+	["rp_tnb_riverside"] 				= 2786091789,
+	["gm_Spoon"] 						= 941407499,
+	["ntx_cairostation"] 					= 2582506076,
+	["rp_coastdawn"] 					= 2830695092,
+	["rp_downtowndawn"] 				= 2832503149,
+	["rp_oasisdawn"] 					= 2830786114,
+	["gm_rats_nest"] 						= 2021417682,
+	["rp_tnb_salvation"] 				= 1402958231,
+	["rp_highland"] 					= 1685125362,
+	["rp_desert_strike"] 				= 1095749195,
+	["rp_maganalis"] 					= 2812440461,
 }
 
 GM.Config.ArmorLevels 	= {

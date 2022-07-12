@@ -3,7 +3,7 @@ ITEM = class.Create("base_weapon")
 ITEM.Name 				= "Model 33 Revolver"
 ITEM.Description 		= "The Model 33 Revolver is a pistol used as a sidearm and/or backup weapon manufactured for the civilian market. It is chambered in .38 Lapua Long."
 
-ITEM.Model 				= Model("models/props_junk/cardboard_box003a.mdl")
+ITEM.Model 				= Model("models/weapons/w_444.mdl")
 
 ITEM.Width 				= 2
 ITEM.Height 			= 1
