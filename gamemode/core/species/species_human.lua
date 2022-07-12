@@ -30,26 +30,26 @@ CLASS.WeaponSlots 			= {EQUIPMENT_ID, EQUIPMENT_RADIO, EQUIPMENT_PRIMARY, EQUIPM
 
 CLASS.DeathSounds 			= {
 	[GENDER_MALE] = {
-		"vo/npc/male01/pain01.wav",
-		"vo/npc/male01/pain02.wav",
-		"vo/npc/male01/pain03.wav",
-		"vo/npc/male01/pain04.wav",
-		"vo/npc/male01/pain05.wav",
-		"vo/npc/male01/pain06.wav",
-		"vo/npc/male01/pain07.wav",
-		"vo/npc/male01/pain08.wav",
-		"vo/npc/male01/pain09.wav"
+		"human/death/dth1 (1).wav",
+		"human/death/dth1.wav",
+		"human/death/dth2.wav",
+		"human/death/dth3.wav",
+		"human/death/dth4 (1).wav",
+		"human/death/dth4.wav",
+		"human/death/dth7 (1).wav",
+		"human/death/dth7.wav",
+		"human/death/dth8.wav"
 	},
 	[GENDER_FEMALE] = {
-		"vo/npc/female01/pain01.wav",
-		"vo/npc/female01/pain02.wav",
-		"vo/npc/female01/pain03.wav",
-		"vo/npc/female01/pain04.wav",
-		"vo/npc/female01/pain05.wav",
-		"vo/npc/female01/pain06.wav",
-		"vo/npc/female01/pain07.wav",
-		"vo/npc/female01/pain08.wav",
-		"vo/npc/female01/pain09.wav"
+		"human/fdeath/dth1.wav",
+		"human/fdeath/dth2.wav",
+		"human/fdeath/dth3.wav",
+		"human/fdeath/dth4 (1).wav",
+		"human/fdeath/dth4.wav",
+		"human/fdeath/dth5 (1).wav",
+		"human/fdeath/dth5.wav",
+		"human/fdeath/dth6 (1).wav",
+		"human/fdeath/dth6.wav"
 	}
 }
 

@@ -30,7 +30,31 @@ CLASS.MoveSpeed 			= {
 	Crouch = 50
 }
 
-CLASS.Voicelines 			= {}
+CLASS.DeathSounds 			= {
+		"elite/death/1.wav",
+  		"elite/death/2.wav",
+  		"elite/death/dth1 (1).wav",
+  		"elite/death/dth1.wav",
+  		"elite/death/dth2.wav",
+  		"elite/death/dth3 (1).wav",
+  		"elite/death/dth3.wav",
+  		"elite/death/dth5.wav",
+  		"elite/death/dth6.wav",
+  		"elite/death/dth7.wav",
+  		"elite/death/dth_fall2.wav",
+}
+
+CLASS.Voicelines 	= {
+	["Smoke & Fire"] = "elite/taunt/tnt11.wav",
+	["No Heart"] = "elite/taunt/tnt4 (1).wav",
+  	["No match"] = "elite/taunt/tnt4.wav",
+  	["Best you have"] = "elite/taunt/tnt6.wav",
+	["No chance"] = "elite/taunt/tnt8.wav",
+  	["You come to die"] = "elite/taunt/tnt9.wav",
+    ["Injured"] = "elite/death/dth3 (1).wav",
+  	["Injured 2"] = "elite/death/dth1 (1).wav",
+	
+}
 
 if CLIENT then
 	local overlay = CreateMaterial("EliteOverlay", "UnlitGeneric", {

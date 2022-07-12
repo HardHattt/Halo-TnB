@@ -30,7 +30,28 @@ CLASS.MoveSpeed 			= {
 	Crouch = 67
 }
 
-CLASS.Voicelines 			= {}
+CLASS.DeathSounds 			= {
+		"hunter/death/dth7.wav",
+  		"hunter/death/dth_drama4.wav",
+  		"hunter/death/dth_slnt1.wav",
+  		"hunter/death/dth_slnt3.wav",
+  		"hunter/death/dth_slnt4.wav",
+  		"hunter/death/dth_slnt5.wav",
+  		"hunter/death/dth_slnt6.wav",
+  		"hunter/death/dth_slnt8.wav",
+}
+
+CLASS.Voicelines 	= {
+	["Taunt 1"] = "hunter/taunt/dwn11.wav",
+	["Taunt 2"] = "hunter/taunt/dwn12.wav",
+  	["Taunt 3"] = "hunter/taunt/pain_mdm10.wav",
+  	["Taunt 4"] = "hunter/taunt/pain_mjr1.wav",
+	["Taunt 5"] = "hunter/taunt/rmd23.wav",
+  	["Taunt 6"] = "hunter/taunt/rmd5.wav",
+    ["Injured"] = "hunter/death/dth7.wav",
+  	["Injured 2"] = "hunter/death/dth_slnt3.wav",
+	
+}
 
 if SERVER then
 	function CLASS:InitialSetup(ply)

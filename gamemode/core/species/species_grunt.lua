@@ -31,7 +31,31 @@ CLASS.MoveSpeed 			= {
 	Crouch = 80
 }
 
-CLASS.Voicelines 			= {}
+CLASS.DeathSounds 			= {
+		"grunt/death/dth1.wav",
+  		"grunt/death/dth10.wav",
+  		"grunt/death/dth12.wav",
+  		"grunt/death/dth2.wav",
+  		"grunt/death/dth3.wav",
+  		"grunt/death/dth4.wav",
+  		"grunt/death/dth5.wav",
+  		"grunt/death/dth6.wav",
+  		"grunt/death/dth7.wav",
+  		"grunt/death/dth8.wav",
+    	"grunt/death/dth9.wav",
+}
+
+CLASS.Voicelines 	= {
+	["All you got?"] = "grunt/taunt/tnt1.wav",
+	["Little grug"] = "grunt/taunt/tnt10.wav",
+  	["Coming for ya"] = "grunt/taunt/tnt2 (1).wav",
+  	["You dont scare us"] = "grunt/taunt/tnt2.wav",
+	["We dont fear"] = "grunt/taunt/tnt3.wav",
+  	["We're gonna win"] = "grunt/taunt/tnt4.wav",
+    ["Injured"] = "grunt/death/dth8.wav",
+  	["Injured 2"] = "grunt/death/dth6.wav",
+	
+}
 
 if CLIENT then
 	function CLASS:ProcessPreview(ent, pnl)
