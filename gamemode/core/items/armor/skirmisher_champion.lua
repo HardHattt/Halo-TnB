@@ -9,8 +9,12 @@ if SERVER then
 	function ITEM:GetModelData(ply)
 		return {
 			_base = {
+				Skin = 2,
 				Bodygroups = {
-					["Body Options"] = 4
+					Armor = 3,
+					Mask  = 3,
+					Left_Bracer = 1,
+					Right_Bracer = 2
 				},
 				PlayerColor = Color(225, 139, 0):ToVector()
 			}

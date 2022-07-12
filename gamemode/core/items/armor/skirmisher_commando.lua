@@ -10,7 +10,8 @@ if SERVER then
 		return {
 			_base = {
 				Bodygroups = {
-					["Body Options"] = 3
+					Armor = 2,
+					Mask  = 2
 				},
 				PlayerColor = Color(49, 97, 3):ToVector()
 			}
