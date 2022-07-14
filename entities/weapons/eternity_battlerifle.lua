@@ -23,7 +23,7 @@ SWEP.AmmoGroup 			= "95x40mm"
 SWEP.ClipSize 			= 36
 SWEP.Delay 				= 0.1
 
-SWEP.HipCone 			= 0.5
+SWEP.HipCone 			= 0.1
 SWEP.AimCone 			= 0.009
 
 SWEP.Recoil 			= 1
