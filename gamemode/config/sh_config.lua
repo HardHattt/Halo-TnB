@@ -146,7 +146,7 @@ GM.Config.WorkshopIDs 	= {
 	"2829144138",   -- Playermodels (Human MilPol/Off-Duty)
 	"2829144138",    -- Playermodels (Human Marines)
 	"2829144138",    -- Playermodels (Human ODSTs)
-	"1934526858",   -- Playermodels (Human Spartans)
+	"2087266117",   -- Playermodels (Human Spartans)
 	"173923845",    -- Playermodels (Sci-Fi Citizens Content)
 	"173932955",    -- Playermodels (Sci-Fi Citizens Models)
 	"842630939",    -- Playermodels (Generic Citizens Czech)
