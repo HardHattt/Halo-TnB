@@ -8,7 +8,7 @@ SWEP.Author 			= "TankNut"
 SWEP.ViewModel 			= Model("models/vuthakral/halo/weapons/c_hum_m45.mdl")
 SWEP.WorldModel 		= Model("models/vuthakral/halo/weapons/w_m45.mdl")
 
-SWEP.HoldType 			= "ar2"
+SWEP.HoldType 			= "shotgun"
 SWEP.HoldTypeLowered 	= "passive"
 
 SWEP.Firemodes 			= {

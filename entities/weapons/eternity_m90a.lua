@@ -36,7 +36,7 @@ SWEP.RecoilMult 		= 0
 
 SWEP.DefaultOffset = {
 	ang = Angle(0, 0, 0),
-	pos = Vector(1, -1, -1)
+	pos = Vector(0, 3, -2)
 }
 
 SWEP.LoweredOffset = {
@@ -46,7 +46,7 @@ SWEP.LoweredOffset = {
 
 SWEP.AimOffset = {
 	ang = Angle(0, 0, 0),
-	pos = Vector(-1, -3, -1)
+	pos = Vector(-1, -1.5, -1)
 }
 
 SWEP.Animations = {

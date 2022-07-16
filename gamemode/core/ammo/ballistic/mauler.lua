@@ -1,11 +1,11 @@
 AMMO = class.Create("ammo_ballistic")
 
-AMMO.Name 		= "8 Gauge M296 Magnum"
+AMMO.Name 		= "7.9mm metal bolts"
 
 AMMO.Damage 	= 10
 
-AMMO.Amount 	= 15
-AMMO.Spread 	= 0.04
+AMMO.Amount 	= 10
+AMMO.Spread 	= 0.08
 
 AMMO.Tracer 	= "tracer"
 
