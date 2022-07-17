@@ -127,7 +127,6 @@ GM.Config.ChatColors = {
 	Angry = Color(232, 20, 20)
 }
 
-GM.Config.CollectionID 	= 1422930161
 GM.Config.Website 		= "https://www.taconbanana.com/"
 
 GM.Config.WorkshopIDs 	= {
@@ -141,11 +140,7 @@ GM.Config.WorkshopIDs 	= {
 	"2691541233",    -- Playermodels (Covenant Skirmishers)
 	"2089717177",   -- Playermodels (Covenant Elites)
 	"2247371890",    -- Playermodels (Jiralhanae)
-	"2829144138",    -- Playermodels (Human Face Materials)
-	"2829144138",   -- Playermodels (Human Insurrectionist)
-	"2829144138",   -- Playermodels (Human MilPol/Off-Duty)
 	"2829144138",    -- Playermodels (Human Marines)
-	"2829144138",    -- Playermodels (Human ODSTs)
 	"2087266117",   -- Playermodels (Human Spartans)
 	"173923845",    -- Playermodels (Sci-Fi Citizens Content)
 	"173932955",    -- Playermodels (Sci-Fi Citizens Models)
