@@ -127,6 +127,7 @@ GM.Config.ChatColors = {
 	Angry = Color(232, 20, 20)
 }
 
+GM.Config.CollectionID 	= 1422930161
 GM.Config.Website 		= "https://www.taconbanana.com/"
 
 GM.Config.WorkshopIDs 	= {
