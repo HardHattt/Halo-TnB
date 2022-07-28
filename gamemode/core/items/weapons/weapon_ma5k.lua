@@ -10,8 +10,6 @@ ITEM.Height 			= 2
 
 ITEM.EquipmentSlots 	= {EQUIPMENT_PRIMARY}
 
-ITEM.License 			= LICENSE_QM
-
 ITEM.WeaponClass 		= "eternity_ma5k"
 
 ITEM.AmmoSlots 			= {

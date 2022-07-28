@@ -10,6 +10,8 @@ ITEM.Height 			= 3
 
 ITEM.EquipmentSlots 	= {EQUIPMENT_PRIMARY, EQUIPMENT_SECONDARY, EQUIPMENT_MISC}
 
+ITEM.License 			= LICENSE_QM
+
 ITEM.WeaponClass 		= "eternity_crowbar"
 
 return ITEM

@@ -18,7 +18,7 @@ if SERVER then
           			Forearm_Right = 3,
 					Forearm_Left = 3,
 					Thighs = 8,
-					Calves = 3,
+					Calves = 4,
 					Undersuit = 1,
 				}
 			}

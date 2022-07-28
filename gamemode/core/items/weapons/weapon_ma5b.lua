@@ -1,6 +1,6 @@
 ITEM = class.Create("base_weapon")
 
-ITEM.Name 				= "MA5B"
+ITEM.Name 				= "MA5B ICWS"
 ITEM.Description 		= "The MA5B assault rifle, or simply MA5B, is a standard-issue automatic rifle utilized by the UNSC, particularly the Marine Corps."
 
 ITEM.Model 				= Model("models/vuthakral/halo/weapons/w_ma5b.mdl")

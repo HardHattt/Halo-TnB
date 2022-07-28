@@ -7,6 +7,8 @@ ITEM.Model 				= Model("models/weapons/w_grenade.mdl")
 
 ITEM.EquipmentSlots 	= {EQUIPMENT_MISC}
 
+ITEM.License 			= LICENSE_QM
+
 ITEM.MaxStack 			= 3
 
 ITEM.WeaponClass 		= "eternity_grenade"

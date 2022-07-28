@@ -12,6 +12,8 @@ ITEM.Height 			= 3
 
 ITEM.EquipmentSlots 	= {EQUIPMENT_PRIMARY}
 
+ITEM.License 			= LICENSE_QM
+
 ITEM.WeaponClass 		= "halo_flamethrower"
 
 return ITEM

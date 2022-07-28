@@ -12,6 +12,8 @@ ITEM.Height 			= 2
 
 ITEM.EquipmentSlots 	= {EQUIPMENT_MISC, EQUIPMENT_SECONDARY}
 
+ITEM.License 			= LICENSE_QM
+
 ITEM.WeaponClass 		= "weapon_simrepair"
 
 return ITEM
