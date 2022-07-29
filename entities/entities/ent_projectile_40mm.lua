@@ -19,8 +19,8 @@ ENT.Velocity 				= 2000
 ENT.UseGravity 				= true
 ENT.GravityMultiplier 		= 1
 
-ENT.Damage 					= 250
-ENT.Radius 					= 200
+ENT.Damage 					= 150
+ENT.Radius 					= 250
 
 function ENT:Initialize()
 	BaseClass.Initialize(self)
