@@ -23,6 +23,7 @@ ENT.AmmoTypes 		= {
 	["40mm"] = {"ammo_40mm_hedp", 18}, -- 3 stacks
 	["5x23mm"] = {"ammo_5x23mm", 4800}, -- 10 stacks
 	["762x51mm"] = {"ammo_762x51mm", 3200}, -- 10 stacks
+	["308"] = {"ammo_308", 3000}, -- 10 stacks
 	["95x40mm"] = {"ammo_95x40mm", 3600}, -- 10 stacks
 	["8ga"] = {"ammo_8ga_buckshot", 240} -- 4 stacks
 }
