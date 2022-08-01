@@ -1,12 +1,12 @@
 ITEM = class.Create("base_item")
 
 ITEM.Name 				= "Compass"
-ITEM.Description 		= "A simple compass, convenient for finding your way around."
+ITEM.Description 		= "A compass directly linked to the standard neural implant, convenient for finding your way around."
 
 ITEM.Model 				= Model("models/props_pipes/pipe01_connector01.mdl")
 ITEM.Material 			= "phoenix_storms/Fender_chrome"
 
-ITEM.EquipmentSlots = {EQUIPMENT_ID, EQUIPMENT_MISC}
+ITEM.EquipmentSlots = {EQUIPMENT_ID}
 
 ITEM.License 			= LICENSE_QM
 
@@ -16,7 +16,7 @@ if CLIENT then
 	}
 
 	hook.Add("HUDPaint", "compass", function()
-		local item = LocalPlayer():GetEquipment(EQUIPMENT_MISC)
+		local item = LocalPlayer():GetEquipment(EQUIPMENT_ID)
 
 		if not item or item:GetClassName() != "compass" then
 			return
