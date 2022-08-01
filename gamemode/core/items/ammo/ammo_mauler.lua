@@ -5,7 +5,7 @@ ITEM.Description 		= "A magazine of constantly superheated bolts."
 
 ITEM.Model 				= Model("models/Items/BoxBuckshot.mdl")
 
-ITEM.MaxStack 			= 50 -- 10 reloads
+ITEM.MaxStack 			= 1000 -- 10 reloads
 
 ITEM.AmmoGroup 			= "8ga"
 ITEM.Ammo 				= "mauler"

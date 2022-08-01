@@ -1,8 +1,8 @@
 AMMO = class.Create("ammo_ballistic")
 
-AMMO.Name 		= "5x23mm M443"
+AMMO.Name 		= ".308 M636"
 
-AMMO.Damage 	= 9
+AMMO.Damage 	= 30
 
 AMMO.Amount 	= 1
 AMMO.Spread 	= 0

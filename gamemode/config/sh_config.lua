@@ -333,6 +333,7 @@ GM.Config.ToolTrust = {
 		"precision",
 		"precision_align",
 		"weight",
+		"rb655_easy_bodygroup",
 		"stacker_improved"
 	}
 }
@@ -432,7 +433,6 @@ GM.Config.PermissionWhitelist = {
 		"sim_fphys_halo_Scorpion_M808S", -- Military tractor (alt)
 		"sim_fphys_halo_Scorpion_M820", -- Military tractor (cargo)
 		"sim_fphys_halo_militarytruck", -- Spade again
-    	"sim_fphys_halo_militarytruck_Battery", -- Mil Truck
         "sim_fphys_halo_militarytruck_Alternate", -- Mil Truck Alt
     	"sim_fphys_halo_militarytruck_Cargo", -- Mil Truck Cargo
         "sim_fphys_halo_militarytruck_long_covered", -- Mil Truck Long

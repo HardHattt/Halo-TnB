@@ -12,14 +12,14 @@ ENT.AdminSpawnable 			= false
 
 ENT.AutomaticFrameAdvance	= true
 
-ENT.Velocity 				= 6350
+ENT.Velocity 				= 10000
 
 ENT.UseGravity 				= false
 
 ENT.Length 					= 50
 ENT.Color 					= Color(0, 255, 255)
 
-ENT.DamageRange 			= {20, 40}
+ENT.DamageRange 			= {30, 40}
 
 function ENT:Initialize()
 	BaseClass.Initialize(self)

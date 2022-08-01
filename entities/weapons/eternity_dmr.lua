@@ -2,7 +2,7 @@ AddCSLuaFile()
 
 SWEP.Base 				= "eternity_firearm_base"
 
-SWEP.PrintName 			= "M392 DMR"
+SWEP.PrintName 			= "M393 DMR"
 SWEP.Author 			= "TankNut"
 
 SWEP.ViewModel 			= Model("models/vuthakral/halo/weapons/c_hum_dmr.mdl")
@@ -18,7 +18,7 @@ SWEP.Firemodes 			= {
 SWEP.Animated 			= true
 SWEP.AnimatedADS 		= true
 
-SWEP.AmmoGroup 			= "762x51mm"
+SWEP.AmmoGroup 			= "308"
 
 SWEP.ClipSize 			= 15
 SWEP.Delay 				= 0.33

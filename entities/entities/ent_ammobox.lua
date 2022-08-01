@@ -13,7 +13,7 @@ ENT.AdminOnly 		= true
 ENT.Model 			= Model("models/ishi/halo_rebirth/props/human/ammo_box.mdl")
 ENT.Color 			= Color(0, 127, 31)
 
-ENT.Cooldown 		= 300 -- 5 minutes
+ENT.Cooldown 		= 120 -- 2 minutes
 
 -- ["ammo group"] = {"item type", max amount}
 ENT.AmmoTypes 		= {

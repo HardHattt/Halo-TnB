@@ -52,39 +52,19 @@ CLASS.Voicelines 	= {
 	
 }
 
-local color = Color(28, 28, 28):ToVector()
-
-if CLIENT then
-	function CLASS:ProcessPreview(ent, pnl)
-		ent.GetPlayerColor = function() return color end
-	end
-end
-
 if SERVER then
 	function CLASS:InitialSetup(ply)
 		ply:GiveLanguage(LANG_COVENANT)
 		ply:SetActiveLanguage(LANG_COVENANT)
-	end
 
-	function CLASS:GetModelData(ply)
-		return {
-			_base = {
-				Model = ply:CharModel(),
-				PlayerColor = color
-			}
-		}
+		ply:SetCharSkin(0)
+		ply:HandlePlayerModel()
 	end
 
 	function CLASS:SetupHands(ply, ent)
 		ent:SetModel("models/valk/haloreach/covenant/characters/grunt/grunt_hands.mdl")
 		ent:SetSkin(0)
 		ent:SetBodyGroups("00000000")
-
-		local bodygroup = ply:ModelData()._base.Bodygroups
-
-		if bodygroup then
-			ent:SetBodygroup(1, bodygroup["Body Options"])
-		end
 	end
 end
 

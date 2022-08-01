@@ -28,7 +28,7 @@ SWEP.AimCone 			= 0.01
 
 SWEP.Recoil 			= 1
 
-SWEP.FireSound 			= Sound("weapon_m6g")
+SWEP.FireSound 			= Sound("halo/halo_3/magnum_fire_1.ogg")
 
 SWEP.RecoilMult 		= 0
 

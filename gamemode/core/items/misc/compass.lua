@@ -6,7 +6,7 @@ ITEM.Description 		= "A simple compass, convenient for finding your way around."
 ITEM.Model 				= Model("models/props_pipes/pipe01_connector01.mdl")
 ITEM.Material 			= "phoenix_storms/Fender_chrome"
 
-ITEM.EquipmentSlots 	= {EQUIPMENT_MISC}
+ITEM.EquipmentSlots = {EQUIPMENT_ID, EQUIPMENT_MISC}
 
 ITEM.License 			= LICENSE_QM
 

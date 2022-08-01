@@ -1,7 +1,7 @@
 ITEM = class.Create("base_weapon")
 
-ITEM.Name 				= "M392 DMR"
-ITEM.Description 		= "The M392 Designated Marksman Rifle is the UNSC's weapon of choice for marksmen and reconnaisance units. Chambered in 7.62x51mm."
+ITEM.Name 				= "M393 DMR"
+ITEM.Description 		= "The M393 Designated Marksman Rifle is the UNSC's weapon of choice for marksmen and reconnaisance units. Chambered in .308."
 
 ITEM.Model 				= Model("models/vuthakral/halo/weapons/w_dmr.mdl")
 
@@ -15,7 +15,7 @@ ITEM.License 			= LICENSE_QM
 ITEM.WeaponClass 		= "eternity_dmr"
 
 ITEM.AmmoSlots 			= {
-	["762x51mm"] = true
+	["308"] = true
 }
 
 return ITEM

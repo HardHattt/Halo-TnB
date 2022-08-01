@@ -20,8 +20,8 @@ ENT.UseGravity 				= false
 
 ENT.LoopSound 				= Sound("vuthakral/halo/weapons/spnkr/rocketloop.wav")
 
-ENT.Damage 					= 200
-ENT.Radius 					= 200
+ENT.Damage 					= 500
+ENT.Radius 					= 300
 
 function ENT:Initialize()
 	BaseClass.Initialize(self)
