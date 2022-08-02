@@ -5,7 +5,7 @@ CLASS.Team 					= TEAM_COVENANT
 
 CLASS.ForceTeamSpawn 		= true
 
-CLASS.BaseHealth 			= 100
+CLASS.BaseHealth 			= 150
 
 CLASS.WeaponLoadout 		= {"eternity_hands"}
 CLASS.PlayerModels 			= {

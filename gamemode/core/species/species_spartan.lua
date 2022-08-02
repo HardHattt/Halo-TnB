@@ -3,7 +3,7 @@ local CLASS = class.Create("base_species")
 CLASS.Name 					= "SPARTAN-III"
 CLASS.Team 					= TEAM_SPARTAN
 
-CLASS.BaseHealth 			= 500
+CLASS.BaseHealth 			= 800
 
 CLASS.WeaponLoadout 		= {"eternity_hands_strong"}
 CLASS.PlayerModels 			= {
