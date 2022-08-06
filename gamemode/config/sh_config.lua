@@ -299,9 +299,7 @@ GM.Config.ToolTrust = {
 		"material",
 		"submaterial",
 		"advmat",
-		"nocollideworld"
-	},
-	[TOOLTRUST_ADVANCED] = {
+		"nocollideworld",
 		"axis",
 		"ballsocket",
 		"elastic",
@@ -333,8 +331,13 @@ GM.Config.ToolTrust = {
 		"precision",
 		"precision_align",
 		"weight",
-		"rb655_easy_bodygroup",
 		"stacker_improved"
+	},
+	[TOOLTRUST_ADVANCED] = {
+		"rb655_easy_bodygroup",
+		"streamradio",
+		"streamradio_color",
+		"rb655_easy_bonemerge"
 	}
 }
 
