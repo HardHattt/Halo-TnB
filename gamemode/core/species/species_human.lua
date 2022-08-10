@@ -55,9 +55,9 @@ CLASS.DeathSounds 			= {
 
 if SERVER then
 	local loadout = {
-		[EQUIPMENT_HEAD] = "helmet_marine_basic",
-		[EQUIPMENT_TORSO] = "armor_marine",
-		[EQUIPMENT_UNDERSUIT] = "undersuit_marine_olive",
+		[EQUIPMENT_HEAD] = "helmet_odst_basic",
+		[EQUIPMENT_TORSO] = "armor_odst_h3",
+		[EQUIPMENT_UNDERSUIT] = "undersuit_odst",
 		[EQUIPMENT_RADIO] = "radio_basic"
 	}
 
