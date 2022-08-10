@@ -16,18 +16,4 @@ ITEM.License 		= LICENSE_QM
 ITEM.ModelPattern 		= "models/ishi/halo_rebirth/player/offduty/%s/offduty_%s.mdl"
 ITEM.ModelGroup 		= "Off-Duty"
 
-if SERVER then
-	function ITEM:GetModelData(ply)
-		return {
-			_base = {
-				Model = self:GetModel(ply),
-				Skin = self.ModelSkin,
-				Bodygroups = {
-					Vest = 5,
-				}
-			}
-		}
-	end
-end
-
 return ITEM

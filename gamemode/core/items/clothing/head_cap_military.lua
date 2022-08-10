@@ -9,11 +9,13 @@ ITEM.EquipmentSlots = {EQUIPMENT_HEAD}
 
 ITEM.License 		= LICENSE_QM
 
-ITEM.ModelGroups 	= {"Marine"}
+ITEM.ModelGroups 	= {"Marine", "ODST", "Off-Duty"}
 
 if SERVER then
 	local indices = {
+		["Off-Duty"] = 10,
 		["Marine"] = 6,
+		["ODST"] = 9,
 	}
 
 	function ITEM:GetModelData(ply)

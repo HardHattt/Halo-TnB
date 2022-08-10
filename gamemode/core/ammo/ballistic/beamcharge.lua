@@ -2,7 +2,7 @@ AMMO = class.Create("ammo_ballistic")
 
 AMMO.Name 		= "Beam Rifle Battery"
 
-AMMO.Damage 	= 200
+AMMO.Damage 	= 150
 
 AMMO.Amount 	= 1
 AMMO.Spread 	= 0

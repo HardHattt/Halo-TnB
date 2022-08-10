@@ -20,7 +20,7 @@ CLASS.PlayerModels 			= {
 }
 
 CLASS.DisabledProperties 	= {
-	["CharSkin"] = true
+	["CharSkin"] = false
 }
 
 CLASS.AllowStash 			= true

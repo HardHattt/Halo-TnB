@@ -25,6 +25,7 @@ local fields = {
 	"Vest",
 	"GauntletLeft",
   	"GauntletRight",
+  	"Vest",
 	"ShoulderLeft",
 	"ShoulderRight",
 	"Cod",
@@ -53,6 +54,7 @@ function ITEM:GetOptions(ply)
 				self.Abdomen = math.random(0, 3)
 				self.GauntletLeft = math.random(0, 4)
           		self.GauntletRight = math.random(0, 4)
+				self.Vest = math.random(1, 5)
 				self.ShoulderLeft = math.random(0, 6)
 				self.ShoulderRight = math.random(0, 6)
 				self.Belt = math.random(0, 2)
@@ -102,6 +104,20 @@ function ITEM:GetOptions(ply)
 			end,
 			Callback = function(val)
 				self.GauntletRight = math.Clamp(math.Round(val), 0, 4)
+
+				ply:HandlePlayerModel()
+			end
+		})
+
+		table.insert(tab, {
+			Name = "Set Chest Piece",
+			Client = function()
+				return GAMEMODE:OpenGUI("Input", "number", "Set Chest Piece", {
+					Default = self.Vest or 0
+				})
+			end,
+			Callback = function(val)
+				self.Vest = math.Clamp(math.Round(val), 1, 5)
 
 				ply:HandlePlayerModel()
 			end
@@ -209,6 +225,7 @@ if SERVER then
 					Abdomen = self.Abdomen,
 					Gauntlet_Left = self.GauntletLeft,
           			Gauntlet_Right = self.GauntletRight,
+					Vest = self.Vest,
 					Shoulder_Left = self.ShoulderLeft,
 					Shoulder_Right = self.ShoulderRight,
 					Cod = self.Belt,
