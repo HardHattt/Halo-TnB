@@ -1,7 +1,7 @@
 ITEM = class.Create("base_clothing")
 
 ITEM.Name 			= "Firefall ODST Helmet"
-ITEM.Description 	= "Manufactured by Cascade Stronghold Technologies, Firefall is a radical offshoot of other ODST armor development projects."
+ITEM.Description 	= "Manufactured by Cascade Stronghold Technologies, Firefall is a radical offshoot of other ODST armor development projects. It is meant for command personnel."
 
 ITEM.Model 			= Model("models/ishi/halo_rebirth/player/offduty/male/props/helmet_odst_firefall.mdl")
 
@@ -10,8 +10,6 @@ ITEM.OutlineColor 		= Color(127, 0, 255)
 
 ITEM.EquipmentSlots = {EQUIPMENT_HEAD}
 ITEM.ModelGroups 	= {"Off-Duty"}
-
-ITEM.License 		= LICENSE_QM
 
 ITEM.Filtered 		= true
 
