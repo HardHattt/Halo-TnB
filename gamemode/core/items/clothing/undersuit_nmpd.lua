@@ -11,4 +11,15 @@ ITEM.ModelPattern 		= "models/halo_3/players/nmpd_officer.mdl"
 ITEM.ModelSkin 			= 0
 ITEM.ModelGroup 		= "Off-Duty"
 
+if SERVER then
+	function CLASS:GetModelData(ply)
+		return {
+			_base = {
+        		Model = "models/halo_3/players/nmpd_officer.mdl",
+				Scale = 1.1
+			}
+		}
+	end
+end
+
 return ITEM
